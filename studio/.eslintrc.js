@@ -4,7 +4,9 @@ module.exports = {
   extends: ['standard', 'standard-react'],
   parser: 'babel-eslint',
   rules: {
-    'react/prop-types': 0,
+    'prefer-destructuring': 'warn',
+    'react/prop-types': 'warn',
+    'react/destructuring-assignment': 'warn',
     'object-curly-spacing': ['error', 'never']
   },
   settings: {
