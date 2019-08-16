@@ -12,10 +12,10 @@
   },
   "dependencies": {
     "@sanity/block-content-to-react": "^2.0.6",
-    "@sanity/client": "^0.140.36",
+    "@sanity/client": "^0.142.0",
     "@sanity/image-url": "^0.140.12",
     "@zeit/next-css": "^1.0.1",
-    "groq": "^0.140.0",
+    "groq": "^0.142.0",
     "lodash": "^4.17.11",
     "next": "^8.1.0",
     "next-seo": "^1.11.2",
