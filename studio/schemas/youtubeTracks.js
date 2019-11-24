@@ -16,7 +16,7 @@ export default createSchema({
       // This is the display name for the type
       title: 'Tracks',
 
-      // The identifier for this document type used in the api's
+      // The identifier for this document type used in the api
       name: 'tracks',
 
       // Documents have the type 'document'. Your schema may describe types beyond documents
@@ -30,27 +30,27 @@ export default createSchema({
           // The display name for this field
           title: 'Video Title',
 
-          // The identifier for this field used in the api's
+          // The identifier for this field used in the api
           name: 'video_title',
 
           // The type of this field
           type: 'string'
         },
         {
-          // The displayname for this field
+          // The display name for this field
           title: 'URL',
 
-          // The identifier for this field used in the api's
+          // The identifier for this field used in the api
           name: 'video_url',
 
           // The type of this field
           type: 'string'
         },
         {
-          // The displayname for this field
+          // The display name for this field
           title: 'Source',
 
-          // The identifier for this field used in the api's
+          // The identifier for this field used in the api
           name: 'source',
 
           // The type of this field
