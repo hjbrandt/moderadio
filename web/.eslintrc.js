@@ -10,8 +10,9 @@ module.exports = {
     'react/prop-types': 'warn',
     'react/react-in-jsx-scope': 'off',
     'react/destructuring-assignment': 'warn',
+    'jsx-quotes': ['off', 'never'],
     // 'object-curly-spacing': ['error', 'never'],
-    'jsx-quotes': ['off', 'never']
+    'space-before-function-paren': ['error', 'never']
   },
   settings: {
     react: {
