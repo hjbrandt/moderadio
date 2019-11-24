@@ -37,23 +37,23 @@ export default createSchema({
           type: 'string'
         },
         {
-          //The displayname for this field
+          // The displayname for this field
           title: 'URL',
 
-          //The identifier for this field used in the api's
+          // The identifier for this field used in the api's
           name: 'video_url',
 
-          //The type of this field
+          // The type of this field
           type: 'string'
         },
         {
-          //The displayname for this field
+          // The displayname for this field
           title: 'Source',
 
-          //The identifier for this field used in the api's
+          // The identifier for this field used in the api's
           name: 'source',
 
-          //The type of this field
+          // The type of this field
           type: 'string'
         }
       ]
