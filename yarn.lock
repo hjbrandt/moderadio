@@ -2060,7 +2060,7 @@
     make-error "^1.3.0"
     object-assign "^4.1.1"
 
-"@sanity/client@0.146.0":
+"@sanity/client@0.146.0", "@sanity/client@^0.146.0":
   version "0.146.0"
   resolved "https://registry.yarnpkg.com/@sanity/client/-/client-0.146.0.tgz#7dfabb7f505c88ef5019353190497ae7fa7f7734"
   integrity sha512-YFqe8qhS3QRAWM9jnghMMsRQuaDHbDJI8RMdUT/BRae76INCOQHg+d59VJr0YTAa69luFkdJBvkHrsEK/F05hg==
@@ -2068,18 +2068,6 @@
     "@sanity/eventsource" "0.146.0"
     "@sanity/generate-help-url" "0.146.0"
     "@sanity/observable" "0.146.0"
-    deep-assign "^2.0.0"
-    get-it "^5.0.0"
-    make-error "^1.3.0"
-    object-assign "^4.1.1"
-
-"@sanity/client@^0.145.0":
-  version "0.145.0"
-  resolved "https://registry.npmjs.org/@sanity/client/-/client-0.145.0.tgz#ad4efec695c90579a8376c418fff65d3a58c2d6f"
-  dependencies:
-    "@sanity/eventsource" "0.145.0"
-    "@sanity/generate-help-url" "0.145.0"
-    "@sanity/observable" "0.145.0"
     deep-assign "^2.0.0"
     get-it "^5.0.0"
     make-error "^1.3.0"
@@ -2324,13 +2312,6 @@
     eventsource "^1.0.6"
     eventsource-polyfill "^0.9.6"
 
-"@sanity/eventsource@0.145.0":
-  version "0.145.0"
-  resolved "https://registry.npmjs.org/@sanity/eventsource/-/eventsource-0.145.0.tgz#2106655c84ee840e8468ebe20c7f5330365587e5"
-  dependencies:
-    eventsource "^1.0.6"
-    eventsource-polyfill "^0.9.6"
-
 "@sanity/eventsource@0.146.0":
   version "0.146.0"
   resolved "https://registry.yarnpkg.com/@sanity/eventsource/-/eventsource-0.146.0.tgz#f39e0e625c0442201b709cd8cef40ea009df0d9b"
@@ -2400,10 +2381,6 @@
 "@sanity/generate-help-url@0.140.0", "@sanity/generate-help-url@^0.140.0":
   version "0.140.0"
   resolved "https://registry.yarnpkg.com/@sanity/generate-help-url/-/generate-help-url-0.140.0.tgz#f60ab75be5fdc346b9f0d1c2a0858aa3c2870109"
-
-"@sanity/generate-help-url@0.145.0":
-  version "0.145.0"
-  resolved "https://registry.npmjs.org/@sanity/generate-help-url/-/generate-help-url-0.145.0.tgz#24ae61fa6263851510c774c24cf27cebc436cf35"
 
 "@sanity/generate-help-url@0.146.0":
   version "0.146.0"
@@ -2495,13 +2472,6 @@
   dependencies:
     object-assign "^4.1.1"
     rxjs "^6.1.0"
-
-"@sanity/observable@0.145.0":
-  version "0.145.0"
-  resolved "https://registry.npmjs.org/@sanity/observable/-/observable-0.145.0.tgz#82ba1c31efaecc3d9cb86fab07414f37969e4e27"
-  dependencies:
-    object-assign "^4.1.1"
-    rxjs "^6.5.2"
 
 "@sanity/observable@0.146.0":
   version "0.146.0"
@@ -6532,10 +6502,10 @@ graceful-fs@^4.1.0, graceful-fs@^4.1.11, graceful-fs@^4.1.15, graceful-fs@^4.1.2
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/graceful-readlink/-/graceful-readlink-1.0.1.tgz#4cafad76bc62f02fa039b2f94e9a3dd3a391a725"
 
-groq@^0.145.0:
-  version "0.145.0"
-  resolved "https://registry.yarnpkg.com/groq/-/groq-0.145.0.tgz#10a7ec8d7c90c802c88fa6890df32d9cee2eab9c"
-  integrity sha512-hi++uNrixrmBa5IGzsGWDv2oCmyIFcieEk73WMqW9haoferWoZntg+hPMhoYmu4CA5x6wARwot/mfRlA390Fag==
+groq@^0.146.0:
+  version "0.146.0"
+  resolved "https://registry.yarnpkg.com/groq/-/groq-0.146.0.tgz#02bd526dd8fa5153113702b8d080d0823b9e8bc4"
+  integrity sha512-RC0GdWDiWbqRo7aCYhTN8IuepAt2WoJ8dkKcTn707tg9SPxa7fIzkriAsSB3wCbjeqY5+ozkaZ63yqzVZhpaPg==
 
 gud@^1.0.0:
   version "1.0.0"
